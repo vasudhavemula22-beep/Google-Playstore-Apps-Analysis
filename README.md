@@ -4,13 +4,13 @@ Google Play Store Data Analysis
 
 This project involves the Exploratory Data Analysis (EDA) of the Google Play Store apps dataset using Python and the Pandas library. The goal is to analyze various metrics such as app ratings, reviews, categories, and installation numbers to derive meaningful insights about the app market.
 
- Technologies Used
+ Technologies Used:
 
 Python 3.x
 
 Pandas (Data manipulation and analysis)
 
- Dataset
+ Dataset:
 
 The dataset used for this analysis is included in this repository (googleplaystore.csv).
 
@@ -18,7 +18,8 @@ Source: Google Play Store
 
 Content: Contains ~10,800 rows with details on App Ratings, Reviews, Size, Installs, and Pricing.
 
- Important Configuration (Before Running)
+
+ Important Configuration (Before Running):
 
 The Python script currently contains a specific file path pointing to a local directory:
 
@@ -32,7 +33,8 @@ Open the Python script.
 
 Change the path inside pd.read_csv("...") to the location where you saved the CSV file on your own computer.
 
- Key Analysis & Insights
+
+ Key Analysis & Insights:
 
 The script performs the following specific operations:
 
@@ -59,6 +61,7 @@ Best Categories: Identifies which app category has the highest average rating.
 Free vs. Paid: Counts the distribution of Free vs. Paid applications.
 
 3. Data Cleaning & Advanced Analysis
+   
 
 Review Analysis:
 
@@ -72,6 +75,7 @@ Lists the Top 5 apps with the highest reviews.
 
 Rating by Type: Compares the average rating of Free apps vs. Paid apps.
 
+
 Installation Analysis:
 
 Cleans the Installs column by removing characters (,, +) and handling corrupt data ('Free').
@@ -79,6 +83,7 @@ Cleans the Installs column by removing characters (,, +) and handling corrupt da
 Converts Installs to integer type.
 
 Identifies the Top 5 apps with the maximum number of installations.
+
 
  How to Run
 
